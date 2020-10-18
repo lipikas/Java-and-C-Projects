@@ -5,7 +5,7 @@
 
 - String Evaluator
 - Network Evaluator
-- hash Table Search Engine
+- Hash Table Search Engine
 - Art Collage
 </details>
 
@@ -22,5 +22,6 @@
 ## iOS Project
 <details>
   <summary> ... </summary>
+  
 - Calculator
 </details>
