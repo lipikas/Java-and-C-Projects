@@ -1,6 +1,7 @@
 
 
 <details> Projects
+  <summary> Projects </summary>
 
 - String Evaluator
 - Network Evaluator
