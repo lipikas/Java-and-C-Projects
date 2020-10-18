@@ -1,12 +1,11 @@
 
 
 <details>
-<summary> Projects </summary>
-- ##String Evaluator
+
+- String Evaluator
 - Network Evaluator
 - hash Table Search Engine
 - Art Collage
-
 </details>
 
 ## C Project
