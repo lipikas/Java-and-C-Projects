@@ -29,5 +29,5 @@
 
 ### Contact Me
 - Email: lipikas1234@gmail.com
-- linkedin.com/in/lipika-sutrave
+- [lhttps://linkedin.com/in/lipika-sutrave]
 - Phone: 732-209-1843
