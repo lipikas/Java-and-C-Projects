@@ -1,7 +1,7 @@
 
-## Java
+## Java Projects
 <details>
-  <summary> Projects </summary>
+  <summary> ... </summary>
 
 - String Evaluator
 - Network Evaluator
@@ -9,9 +9,9 @@
 - Art Collage
 </details>
 
-## C
+## C Projects
 <details>
-  <summary> Projects </summary>
+  <summary> ... </summary>
 
 - DAG
 - Determinant
@@ -20,7 +20,10 @@
 </details>
 
 ## iOS Project
-- #### Calculator
+<details>
+  <summary> ... </summary>
+- Calculator
+</details>
 
 
 ### Markdown
