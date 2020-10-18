@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include "fourth.h"
+#include "magic.h"
 int main (int argc, char*argv[argc+1]){
 	if (argc < 2)	{
 		printf("Insufficient arguemnts/n");
