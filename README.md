@@ -1,5 +1,5 @@
 
-## Java Projects
+### Java Projects
 <details>
   <summary> ... </summary>
 
@@ -10,7 +10,7 @@
 - Art Collage
 </details>
 
-## C Projects
+### C Projects
 <details>
   <summary> ... </summary>
 
@@ -20,7 +20,7 @@
 - Magic Square
 </details>
 
-## iOS Project
+### iOS Project
 <details>
   <summary> ... </summary>
   
