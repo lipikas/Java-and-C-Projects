@@ -4,6 +4,7 @@
   <summary> ... </summary>
 
 - String Evaluator
+  - OOP
 - Network Evaluator
 - Hash Table Search Engine
 - Art Collage
