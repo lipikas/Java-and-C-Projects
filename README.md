@@ -1,5 +1,5 @@
 
-##Java Projects
+
 <details>
 <summary> Projects </summary>
 - ##String Evaluator
