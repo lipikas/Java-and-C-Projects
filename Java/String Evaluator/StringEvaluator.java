@@ -19,18 +19,16 @@ public class StringEvaluator {
        int sum =1;
        String b="";
        int d = original.length();
-      
-        for (int i=0; i < d - 1; i++) { // runs based on amount of length
-         if (original.charAt(i) == original.charAt(i+1) sum +=1; // finds character
-         else if (sum>1) b = b+sum+original.charAt(i);
-         else b = b+original.charAt(i);
-         sum = 1;
-         }
-         
-     if (d ==1 || d ==0) b=original;
-     else if (original.charAt(d-1)!=original.charAt(d-2)) b += original.charAt(d-1);
-     else b = b+sum+original.charAt(d-1);
-     return b;
+       for (int i=0; i < d - 1; i++) { // runs based on amount of length
+            if (original.charAt(i) == original.charAt(i+1) sum +=1; // finds character
+            else if (sum>1) b = b+sum+original.charAt(i);
+            else b = b+original.charAt(i);
+            sum = 1;
+        }
+        if (d ==1 || d ==0) b=original;
+        else if (original.charAt(d-1)!=original.charAt(d-2)) b += original.charAt(d-1);
+        else b = b+sum+original.charAt(d-1);
+        return b;
      }
 
     public static String decode (String original)  {
@@ -38,13 +36,12 @@ public class StringEvaluator {
         if (Character.isDigit(original.charAt(0))){
             char c = original.charAt(0);
                 if (c=='0') return decode(original.substring(2));
-                else { c--; return original.charAt(1)+decode(c +original.substring(1));}
+                else { c--; return original.charAt(1) + decode(c +original.substring(1));}
         }    
         else return original.charAt(0)+decode(original.substring(1));
-
      }
     public static void main(String[] args) {
     //StdOut.println(encode("eeeugnkghdge"));
-   //StdOut.println(decode("2aa5bc"));
+    //StdOut.println(decode("2aa5bc"));
     }
 }
