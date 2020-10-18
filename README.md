@@ -1,6 +1,6 @@
 
 <details> 
- <summary> **Java Projects** </summary>
+ <summary> Java Projects </summary>
  
 - String Evaluator
 - Network Evaluator
