@@ -217,13 +217,12 @@ public class ArtCollage {
     public void greyscaleTile (int collageCol, int collageRow) {
 
       for (int r = tileDimension*collageRow; r < tileDimension*(collageRow+1); r++) {
-                      for (int c = tileDimension*collageCol; c < tileDimension*(collageCol+1); c++) {
-
+                for (int c = tileDimension*collageCol; c < tileDimension*(collageCol+1); c++) {
                       Color color = collage.get(c, r);
                       Color gray = Luminance.toGray(color);
                       collage.set(c, r, gray);   
                     }
-                }   
+          }   
     }
 
 
