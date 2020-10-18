@@ -1,14 +1,14 @@
 
 ### Java Projects
-<details>
-  <summary> ... </summary>
+  <details>
+    <summary> ... </summary>
 
-- String Evaluator
-- Network Evaluator
-    - Coded a Undirected Graph Project which examines connectors & cliques within a network and shortest chain between 2 friends via adjacency linked list, DFS Topsort, & BFS algorithms.
-- Hash Table Search Engine
-- Art Collage
-</details>
+  - String Evaluator
+  - Network Evaluator
+      - Coded a Undirected Graph Project which examines connectors & cliques within a network and shortest chain between 2 friends via adjacency linked list, DFS Topsort, & BFS algorithms.
+  - Hash Table Search Engine
+  - Art Collage
+  </details>
 
 ### C Projects
 <details>
