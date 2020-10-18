@@ -1,7 +1,7 @@
 
 ## Java Projects
 <details>
-  <summary> ... </summary>
+  <summary> Description </summary>
 
 - String Evaluator
 - Network Evaluator
