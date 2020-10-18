@@ -1,10 +1,12 @@
 
 <details> 
- <summary>## Java Projects</summary>
-- #### String Evaluator
-- #### Network Evaluator
-- #### Hash Table Search Engine
-- #### Art Collage
+ <summary> **Java Projects** </summary>
+ 
+- String Evaluator
+- Network Evaluator
+- hash Table Search Engine
+- Art Collage
+
 </details>
 
 ## C Project
