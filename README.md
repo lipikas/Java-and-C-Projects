@@ -27,7 +27,7 @@
 - Calculator
 </details>
 
-###Contact Me
+## Contact Me
 - Email: lipikas1234@gmail.com
 - linkedin.com/in/lipika-sutrave
 - Phone: 732-209-1843
