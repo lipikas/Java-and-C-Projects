@@ -1,6 +1,6 @@
 
 
-<details> Projects
+<details>
   <summary> Projects </summary>
 
 - String Evaluator
