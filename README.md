@@ -1,10 +1,11 @@
 
-<details> ## Java Projects
+<details> 
+ <summary>## Java Projects</summary>
 - #### String Evaluator
 - #### Network Evaluator
 - #### Hash Table Search Engine
 - #### Art Collage
-  </details>
+</details>
 
 ## C Project
 - #### DAG
