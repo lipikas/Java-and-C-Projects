@@ -4,8 +4,8 @@
   <summary> ... </summary>
 
 - String Evaluator
-  - OOP
 - Network Evaluator
+    - Coded a Undirected Graph Project which examines connectors & cliques within a network and shortest chain between 2 friends via adjacency linked list, DFS Topsort, & BFS algorithms.
 - Hash Table Search Engine
 - Art Collage
 </details>
