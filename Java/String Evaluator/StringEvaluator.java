@@ -2,12 +2,11 @@
  *  Compilation:  javac StringEvaluator.java
  *  Execution:    java StringEvaluator
  *
- *  @author: Lipika Sutrave;ls1175@rutgers.edu; ls1175
+ *  @author: Lipika Sutrave
  *
  *************************************************************************/
 
 public class StringEvaluator {
-
     /* 
      * Encode the original string by finding sequences in the string
      * where the same character repeats. Replace each such sequence
