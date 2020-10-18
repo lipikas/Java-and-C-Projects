@@ -1,5 +1,5 @@
 ## Java Projects
-- ###### String Evaluator
+- #### String Evaluator
 ## C Project
 ## iOS Project
 
