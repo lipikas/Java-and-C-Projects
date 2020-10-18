@@ -1,6 +1,6 @@
 ## Java Projects
 ## C Project
-## iOS Projects (ghttps://google.com)
+## iOS Projects (https://google.com)
 
 
 ### Markdown
