@@ -7,7 +7,7 @@ int main (int argc, char*argv[argc+1]){
 		return EXIT_SUCCESS;
 	}
 	int n = atoi(argv[1]);
-	if ( n%2 ==0)	{
+	if (n%2 ==0)	{
 		printf("error\n");
 		return EXIT_SUCCESS;
 	}
