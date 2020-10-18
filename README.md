@@ -1,6 +1,6 @@
 
 
-<details>
+<details> Projects
 
 - String Evaluator
 - Network Evaluator
