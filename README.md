@@ -1,7 +1,7 @@
 
 ##Java Projects
 <details>
-<summary> </summary>
+<summary> Projects </summary>
 - String Evaluator
 - Network Evaluator
 - hash Table Search Engine
