@@ -1,7 +1,17 @@
 ## Java Projects
 - #### String Evaluator
+- #### Network Evaluator
+- #### Hash Table Search Engine
+- #### Art Collage
+
 ## C Project
+- #### DAG
+- #### Determinant
+- #### Dijkstra Network
+- #### Magic Square
+
 ## iOS Project
+- #### Calculator
 
 
 ### Markdown
