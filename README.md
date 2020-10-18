@@ -1,5 +1,5 @@
 
-## Java Project
+## Java
 <details>
   <summary> Projects </summary>
 
@@ -9,11 +9,15 @@
 - Art Collage
 </details>
 
-## C Project
-- #### DAG
-- #### Determinant
-- #### Dijkstra Network
-- #### Magic Square
+## C
+<details>
+  <summary> Projects </summary>
+
+- DAG
+- Determinant
+- Dijkstra Network
+- Magic Square
+</details>
 
 ## iOS Project
 - #### Calculator
