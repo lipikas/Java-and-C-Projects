@@ -1,13 +1,11 @@
-package friends;
+package network;
 
-import java.util.HashMap;
-import java.util.Scanner;
-import java.util.StringTokenizer;
+import java.util.*;
 
-class Friend {
+class Network {
 	int fnum;
-	Friend next;
-	Friend(int fnum, Friend next) {
+	Network next;
+	Network(int fnum, Network next) {
 		this.fnum = fnum;
 		this.next = next;
 	}
@@ -17,7 +15,7 @@ class Person {
 	String name;
 	boolean student;
 	String school;
-	Friend first;
+	Network first;
 }
 
 
@@ -69,8 +67,8 @@ public class Graph {
 			String p2 = st.nextToken();
 			int i = map.get(p1);
 			int j = map.get(p2);
-			members[i].first = new Friend(j,members[i].first);
-			members[j].first = new Friend(i,members[j].first);
+			members[i].first = new Network(j,members[i].first);
+			members[j].first = new Network(i,members[j].first);
 		}
 	}
 }
