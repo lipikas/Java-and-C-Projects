@@ -1,4 +1,4 @@
-package friends;
+package network;
 import java.io.File;
 import java.io.FileNotFoundException;
 //import java.util.ArrayList;
@@ -13,8 +13,6 @@ public class driver {
 			System.out.println("File not found");
 			return; 
 		}
-		//System.out.println(Friends.cliques(g, "princeton"));
-		//Friends f = new Friends();
-		System.out.println(Friends.connectors(g));
+		System.out.println(Network.connectors(g));
 	}
 }
