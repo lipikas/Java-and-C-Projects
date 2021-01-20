@@ -4,13 +4,13 @@ public class Frequency {
 
 	String doc;
 
-	int occurrence;
+	int order;// alias for frequency
 
 	//Initializes with document,occurrence pair.
 	 
 	public Frequency(String document, int freq) {
 		doc = document;
-		occurrence = freq;
+		order = freq;
 	}
 
 	public String toString() {
