@@ -14,6 +14,6 @@ public class Frequency {
 	}
 
 	public String toString() {
-		return "(" + doc + "," + frequency + ")";
+		return "(" + doc + "," + order + ")";
 	}
 }
