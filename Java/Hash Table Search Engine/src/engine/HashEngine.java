@@ -29,12 +29,12 @@ public class HashEngine {
 			String key = checkKey(s.next());
 			/*if (key!=null && h.containsKey(key) && key.compareTo("alice")==0)  {
 				Frequency occ = h.get(key);
-				i = occ.Frequency +1;
+				i = occ.order +1;
 			}*/
 			//if (key!=null)System.out.print(key + " ");
 			if (key!= null && h.containsKey(key)) {
 				Frequency occ = h.get(key);
-				occ.Frequency++;
+				occ.order++;
 			}
 			else if (key!= null && !h.containsKey(key)) {
 				Frequency occ = new Frequency(docFile, 1);
@@ -107,9 +107,9 @@ public class HashEngine {
 		while (min <= max){//perform binary search
 			mid = (min + max)/2;
 			midp.add(mid);
-			if (occs.get(mid).Frequency == target.Frequency){//base case that breaks out of the search
+			if (occs.get(mid).order == target.order){//base case that breaks out of the search
 				break;
-			} else if (target.Frequency < occs.get(mid).Frequency){
+			} else if (target.order < occs.get(mid).order){
 				min = mid + 1;
 			} else {
 				max = mid - 1;
@@ -181,9 +181,9 @@ public class HashEngine {
 				for(ptr = 0; ptr < occs.size() && occs.get(ptr) != null; ptr++){
 					if (prev == -1){
 						if (!result.contains(occs.get(ptr).doc)) prev = ptr;
-					} else if (occs.get(ptr).Frequency > occs.get(prev).Frequency){
+					} else if (occs.get(ptr).Frequency > occs.get(prev).order){
 						if(!result.contains(occs.get(ptr).doc)) prev = ptr;
-					} else if (occs.get(ptr).Frequency == occs.get(prev).Frequency){
+					} else if (occs.get(ptr).Frequency == occs.get(prev).order){
 						if(keyIndex.get(key1).contains(occs.get(ptr))){
 							if(!result.contains(occs.get(ptr).doc)) prev = ptr;
 						}
