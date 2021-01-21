@@ -2,7 +2,6 @@ package network;
 
 import java.util.ArrayList;
 import structs.Queue;
-import structs.Stack;
 
 public class Connections {
 
