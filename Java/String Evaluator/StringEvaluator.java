@@ -15,7 +15,7 @@ public class StringEvaluator {
         return b;
      }
 
-    public static String decompres (String unchanged)  {
+    public static String decompress (String unchanged)  {
         if ((unchanged.length() ==1)||(unchanged.length() ==0)) return unchanged;
         if (Character.isDigit(unchanged.charAt(0))){
             char c = unchanged.charAt(0);
