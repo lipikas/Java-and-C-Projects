@@ -7,8 +7,7 @@ import structs.Stack;
 public class Connections {
 
 	//Determines shortest path between 2 people in a network
-	public static ArrayList<String> shortestChain(Networks g, String pearson1, String pearson2) {
-
+	public static ArrayList<String> smallestPath(Networks g, String pearson1, String pearson2) {
 		Queue<Human> q=new Queue<>();
 		boolean[] visit= new boolean [g.people.length];
 		int[] prev= new int[g.people.length];
@@ -59,7 +58,7 @@ public class Connections {
 		return arr; 
 	}
 	//Determines all the networks in a college
-	public static ArrayList<ArrayList<String>> cliques(Networks g, String college) {
+	public static ArrayList<ArrayList<String>> groups(Networks g, String college) {
 		ArrayList<ArrayList<String>> arr= new ArrayList<ArrayList<String>>();
 		boolean[] f=new boolean[g.people.length];
 
@@ -70,7 +69,7 @@ public class Connections {
 
 			if(curr.college==null)	continue;
 			if(curr.college.equals(college) && !f[name]){
-				check(g,college,curr, f, xyz);
+				checkEmpty(g,college,curr, f, xyz);
 				arr.add(xyz);
 			}
 		}
@@ -78,7 +77,7 @@ public class Connections {
 		return arr; 
 	}
 
-	private static void check (Networks g, String college, Human human, boolean[] f, ArrayList<String>arr){
+	public static void checkEmpty (Networks g, String college, Human human, boolean[] f, ArrayList<String>arr){
 		Queue<Human> q=new Queue<>();
 		q.enqueue(human);
 
