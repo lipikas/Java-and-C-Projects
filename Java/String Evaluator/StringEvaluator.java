@@ -1,5 +1,5 @@
 public class StringEvaluator {
-    public static String encode (String unchanged)  {
+    public static String compress (String unchanged)  {
        int sum =1;
        String b="";
        int d = unchanged.length();
@@ -15,7 +15,7 @@ public class StringEvaluator {
         return b;
      }
 
-    public static String decode (String unchanged)  {
+    public static String decompres (String unchanged)  {
         if ((unchanged.length() ==1)||(unchanged.length() ==0)) return unchanged;
         if (Character.isDigit(unchanged.charAt(0))){
             char c = unchanged.charAt(0);
@@ -25,6 +25,6 @@ public class StringEvaluator {
         else return unchanged.charAt(0)+decode(unchanged.substring(1));
      }
     public static void main(String[] args) {
-    System.out.println(encode("56789vbnmmmmm775"));
+    System.out.println(compress("56789vbnmmmmm775"));
     }
 }
