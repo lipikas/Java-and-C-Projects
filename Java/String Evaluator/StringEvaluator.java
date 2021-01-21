@@ -1,11 +1,3 @@
-/*************************************************************************
- *  Compilation:  javac StringEvaluator.java
- *  Execution:    java StringEvaluator
- *
- *  @author: Lipika Sutrave
- *
- *************************************************************************/
-
 public class StringEvaluator {
     /* 
      * Encode the original string by finding sequences in the string
