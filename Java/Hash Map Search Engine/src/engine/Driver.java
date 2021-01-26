@@ -5,15 +5,15 @@ public class Driver {
 	public static void main(String[] args) {
         	HashEngine f = new HashEngine();
 		ArrayList<Frequency> p = new ArrayList<>();
-		String namr= "a";
+		String name= "a";
 		for (int i = 1; i < 26; i ++) {
 			name += name;
 			if (i == 25) {
-				Frequency b = new Frequency(u, 0);
+				Frequency b = new Frequency(name, 0);
 				p.add(b);
 			}
 			else {
-				Frequency b = new Frequency(u, i+1);
+				Frequency b = new Frequency(name, i+1);
 				p.add(b);
 		    	}
 		}
