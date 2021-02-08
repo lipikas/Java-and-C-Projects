@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include "second.h"
+#include "simulation.h"
 int main(int argc, char* argv[argc+1]){
   if (argc != 9){
   printf("error\n");
