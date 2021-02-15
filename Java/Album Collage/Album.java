@@ -1,5 +1,5 @@
 import java.awt.*;
-Import StdDraw.java;
+
 public class Album {
 private Picture original; // object of Picture class
 private Picture collage;
